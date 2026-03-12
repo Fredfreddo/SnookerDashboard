@@ -1,0 +1,11 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments (if you use them)
+venv/
+.env/
+
+# Optional: Ignore raw json match data if you only want the app to read the CSVs
+*.json
+*.csv
